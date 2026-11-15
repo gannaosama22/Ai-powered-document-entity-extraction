@@ -69,6 +69,7 @@ Run the focused checks from this folder:
 ```powershell
 python -m unittest discover -s tests -v
 ```
+<<<<<<< HEAD
 
 
 ## Baseline experiments and predictions (Ahmed Ali)
@@ -101,3 +102,5 @@ baseline; it is inference-only and has not been fine-tuned on Enron. The
 training script can produce a custom checkpoint only after annotated JSONL
 training data is supplied. Do not report precision, recall, or F1 without
 gold-standard annotations.
+=======
+>>>>>>> origin/main
